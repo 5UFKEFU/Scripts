@@ -1,0 +1,7 @@
+SERIAL 0 19200 0
+
+default pxeboot
+timeout 10
+label pxeboot
+	kernel vmlinuz
+	append initrd=initrd.gz installsource=http://192.168.1.225/hsrouter_V8_final_Build20110316.iso   console=ttyS0,19200n81
