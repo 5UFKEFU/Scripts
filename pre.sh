@@ -397,10 +397,9 @@ route add -net 192.168.0.0/16 gw 192.168.101.1
 
 elif  [ `hostname` == uk1-nas06 ]; then
 
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.95/24"
-ifdown Wired_connection_1
-nmcli connection up "Wired connection 1"
+      ifconfig eth1 192.168.101.95/24
+      echo "ifconfig eth1 192.168.101.95/24" >> /etc/rc.local
+
 route add -net 192.168.0.0/16 gw 192.168.101.1
 
 
