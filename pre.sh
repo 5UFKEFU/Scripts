@@ -120,502 +120,132 @@ touch /movie_box/robots.txt
 
 #echo "swapoff -a "  >> /etc/rc.local
 
-if [ `hostname` == usa7-cache10 ] ; then
-ifconfig eth1 192.168.101.22/24
-echo "ifconfig eth1 192.168.101.22/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-cache11 ]; then
-ifconfig eth1 192.168.101.25/24
-echo "ifconfig eth1 192.168.101.25/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-cache12 ]; then
-ifconfig eth1 192.168.101.26/24
-echo "ifconfig eth1 192.168.101.26/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-cache13 ]; then
-ifconfig eth1 192.168.101.27/24
-echo "ifconfig eth1 192.168.101.27/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-cache14 ]; then
-ifconfig eth1 192.168.101.28/24
-echo "ifconfig eth1 192.168.101.28/24" >> /etc/rc.local
-
-
-elif  [ `hostname` == usa7-cache1 ]; then
-ifconfig eth1 192.168.101.11/24
-echo "ifconfig eth1 192.168.101.11/24" >> /etc/rc.local
-
-
-
-elif  [ `hostname` == usa7-cache4 ]; then
-ifconfig eth1 192.168.101.16/24
-echo "ifconfig eth1 192.168.101.16/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-cache5 ]; then
-ifconfig eth1 192.168.101.17/24
-echo "ifconfig eth1 192.168.101.17/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-cache6 ]; then
-ifconfig eth1 192.168.101.18/24
-echo "ifconfig eth1 192.168.101.18/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-cache7 ]; then
-ifconfig eth1 192.168.101.19/24
-echo "ifconfig eth1 192.168.101.19/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-cache8 ]; then
-ifconfig eth1 192.168.101.20/24
-echo "ifconfig eth1 192.168.101.20/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-cache9 ]; then
-ifconfig eth1 192.168.101.21/24
-echo "ifconfig eth1 192.168.101.21/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa6-nas01 ]; then
-ifconfig eth1 192.168.101.9/24
-echo "ifconfig eth1 192.168.101.9/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-nas01 ]; then
-ifconfig eth1 192.168.101.10/24
-echo "ifconfig eth1 192.168.101.10/24" >> /etc/rc.local
-
-
-elif  [ `hostname` == de2-cache1 ]; then
-ifconfig eth1 192.168.101.35/24
-echo "ifconfig eth1 192.168.101.35/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa6-cache2 ]; then
-ifconfig eth1 192.168.101.36/24
-echo "ifconfig eth1 192.168.101.36/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-nas02 ]; then
-ifconfig eth1 192.168.101.37/24
-echo "ifconfig eth1 192.168.101.37/24" >> /etc/rc.local
-
-
-
-elif  [ `hostname` == usa7-cache-s1 ]; then
-ifconfig eth1 192.168.101.38/24
-echo "ifconfig eth1 192.168.101.38/24" >> /etc/rc.local
-
-elif  [ `hostname` == ca1-cache1 ]; then
-ifconfig eth1 192.168.101.31/24
-echo "ifconfig eth1 192.168.101.31/24" >> /etc/rc.local
-
-elif  [ `hostname` == uk1-cache2 ]; then
-ifconfig eth1 192.168.101.43/24
-echo "ifconfig eth1 192.168.101.43/24" >> /etc/rc.local
-
-elif  [ `hostname` == uk1-nas02 ]; then
-ifconfig eth1 192.168.101.12/24
-echo "ifconfig eth1 192.168.101.12/24" >> /etc/rc.local
-
-
-elif  [ `hostname` == usa6-cache1 ]; then
-ifconfig eth1 192.168.101.44/24
-echo "ifconfig eth1 192.168.101.44/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-nas04 ]; then
-ifconfig eth1 192.168.101.45/24
-echo "ifconfig eth1 192.168.101.45/24" >> /etc/rc.local
-
-elif  [ `hostname` == uk1-cache1 ]; then
-ifconfig eth1 192.168.101.46/24
-echo "ifconfig eth1 192.168.101.46/24" >> /etc/rc.local
-
-
-elif  [ `hostname` == usa6-nas02 ]; then
-ifconfig eth1 192.168.101.51/24
-echo "ifconfig eth1 192.168.101.51/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa6-st202 ]; then
-ifconfig eth3 192.168.101.54/24
-echo "ifconfig eth3 192.168.101.54/24" >> /etc/rc.local
-elif  [ `hostname` == usa6-st203 ]; then
-ifconfig eth3 192.168.101.55/24
-echo "ifconfig eth3 192.168.101.55/24" >> /etc/rc.local
-elif  [ `hostname` == usa6-st204 ]; then
-ifconfig eth3 192.168.101.56/24
-echo "ifconfig eth3 192.168.101.56/24" >> /etc/rc.local
-
-
-elif  [ `hostname` == usa7-st201 ]; then
-      ifconfig eth3 192.168.101.57/24
-echo "ifconfig eth3 192.168.101.57/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-st202 ]; then
-      ifconfig eth3 192.168.101.58/24
-echo "ifconfig eth3 192.168.101.58/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-st203 ]; then
-      ifconfig eth3 192.168.101.59/24
-echo "ifconfig eth3 192.168.101.59/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-st204 ]; then
-      ifconfig eth3 192.168.101.60/24
-echo "ifconfig eth3 192.168.101.60/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-st205 ]; then
-      ifconfig eth3 192.168.101.61/24
-echo "ifconfig eth3 192.168.101.61/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-st206 ]; then
-      ifconfig eth3 192.168.101.62/24
-echo "ifconfig eth3 192.168.101.62/24" >> /etc/rc.local
-
-
-elif  [ `hostname` == usa7-nas07 ]; then
-      ifconfig eth1 192.168.101.63/24
-echo "ifconfig eth1 192.168.101.63/24" >> /etc/rc.local
-
-
-elif  [ `hostname` == usa7-nas08 ]; then
-      ifconfig eth1 192.168.101.64/24
-echo "ifconfig eth1 192.168.101.64/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-nas09 ]; then
-      ifconfig eth1 192.168.101.65/24
-echo "ifconfig eth1 192.168.101.65/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-nas10 ]; then
-      ifconfig eth1 192.168.101.66/24
-echo "ifconfig eth1 192.168.101.66/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa6-nas03 ]; then
-
-
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.67/24"
-ifdown Wired_connection_1
-nmcli connection up "Wired connection 1"
-
-
-elif  [ `hostname` == usa6-nas04 ]; then
-      ifconfig eth1 192.168.101.68/24
-echo "ifconfig eth1 192.168.101.68/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa6-nas05 ]; then
-      ifconfig eth1 192.168.101.69/24
-echo "ifconfig eth1 192.168.101.69/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa6-nas06 ]; then
-      ifconfig eth1 192.168.101.70/24
-echo "ifconfig eth1 192.168.101.70/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa6-nas07 ]; then
-      ifconfig eth1 192.168.101.71/24
-echo "ifconfig eth1 192.168.101.71/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa6-nas08 ]; then
-      ifconfig eth1 192.168.101.72/24
-echo "ifconfig eth1 192.168.101.72/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-nas11 ]; then
-      ifconfig eth1 192.168.101.73/24
-echo "ifconfig eth1 192.168.101.73/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-nas12 ]; then
-      ifconfig eth1 192.168.101.74/24
-echo "ifconfig eth1 192.168.101.74/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-nas13 ]; then
-      ifconfig eth1 192.168.101.75/24
-echo "ifconfig eth1 192.168.101.75/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-nas14 ]; then
-      ifconfig eth1 192.168.101.76/24
-echo "ifconfig eth1 192.168.101.76/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-nas15 ]; then
-      ifconfig eth1 192.168.101.77/24
-echo "ifconfig eth1 192.168.101.77/24" >> /etc/rc.local
-
-elif  [ `hostname` == uk1-nas03 ]; then
-      ifconfig eth1 192.168.101.78/24
-echo "ifconfig eth1 192.168.101.78/24" >> /etc/rc.local
-
-elif  [ `hostname` == usa7-nas06 ]; then
-      ifconfig eth1 192.168.101.79/24
-echo "ifconfig eth1 192.168.101.79/24" >> /etc/rc.local
-
-elif  [ `hostname` == uk1-nas04 ]; then
-      ifconfig eth1 192.168.101.80/24
-echo "ifconfig eth1 192.168.101.80/24" >> /etc/rc.local
-
-
-elif  [ `hostname` == usa7-nas16 ]; then
-
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.82/24"
-ifdown Wired_connection_1
-nmcli connection up "Wired connection 1"
-
-
-elif  [ `hostname` == usa7-nas17 ]; then
-
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.83/24"
-ifdown Wired_connection_1
-nmcli connection up "Wired connection 1"
-
-
-elif  [ `hostname` == usa7-nas18 ]; then
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.84/24"
-ifdown Wired_connection_1
-nmcli connection up "Wired connection 1"
-
-
-
-elif  [ `hostname` == usa7-nas19 ]; then
-
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.85/24"
-ifdown Wired_connection_1
-nmcli connection up "Wired connection 1"
-
-elif  [ `hostname` == usa7-nas20 ]; then
-
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.81/24"
-ifdown Wired_connection_1
-nmcli connection up "Wired connection 1"
-
-
-
-
-
-
-
-elif  [ `hostname` == uk1-nas05 ]; then
-
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.94/24"
-ifdown Wired_connection_1
-nmcli connection up "Wired connection 1"
-route add -net 192.168.0.0/16 gw 192.168.101.1
-
-elif  [ `hostname` == uk1-nas06 ]; then
-
-      ifconfig eth1 192.168.101.95/24
-      echo "ifconfig eth1 192.168.101.95/24" >> /etc/rc.local
-
-route add -net 192.168.0.0/16 gw 192.168.101.1
-
-
-
-elif  [ `hostname` == uk3-nas01 ]; then
-
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.102.11/24"
-ifdown Wired_connection_1
-nmcli connection up "Wired connection 1"
-route add -net 192.168.0.0/16 gw 192.168.101.1
-
-
-elif  [ `hostname` == ca1-inf101 ]; then
-
-ifdown Wired_connection_1
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.99/24"
-nmcli connection up "Wired connection 1"
-route add -net 192.168.0.0/16 gw 192.168.101.1
-
-
-
-elif  [ `hostname` == ca1-a1g201 ]; then
-
-ifdown Wired_connection_1
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.100/24"
-nmcli connection up "Wired connection 1"
-route add -net 192.168.0.0/16 gw 192.168.101.1
-
-
-elif  [ `hostname` == usa7-cache15 ]; then
-
-ifdown Wired_connection_1
-ifdown Wired_connection_1
-ifdown Wired_connection_1
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.101/24"
-nmcli connection up "Wired connection 1"
-route add -net 192.168.0.0/16 gw 192.168.101.1
-
-
-
-elif  [ `hostname` == usa6-cache3 ]; then
-
-
-ifdown Wired_connection_1
-ifdown Wired_connection_1
-ifdown Wired_connection_1
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.42/24"
-nmcli connection up "Wired connection 1"
-route add -net 192.168.0.0/16 gw 192.168.101.1
-
-
-
-
-
-
-elif  [ `hostname` == usa6-cache11 ]; then
-
-
-ifdown Wired_connection_1
-ifdown Wired_connection_1
-ifdown Wired_connection_1
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.102/24"
-nmcli connection up "Wired connection 1"
-route add -net 192.168.0.0/16 gw 192.168.101.1
-
-
-elif  [ `hostname` == uk1-as201 ]; then
-
-
-ifdown Wired_connection_1
-ifdown Wired_connection_1
-ifdown Wired_connection_1
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.103/24"
-nmcli connection up "Wired connection 1"
-route add -net 192.168.0.0/16 gw 192.168.101.1
-
-
-elif  [ `hostname` == uk1-as101 ]; then
-
-
-ifdown Wired_connection_1
-ifdown Wired_connection_1
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.104/24"
-ifdown Wired_connection_1
-nmcli connection up "Wired connection 1"
-route add -net 192.168.0.0/16 gw 192.168.101.1
-
-elif  [ `hostname` == uk1-as202 ]; then
-
-
-
-ifdown Wired_connection_1
-ifdown Wired_connection_1
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.105/24"
-ifdown Wired_connection_1
-nmcli connection up "Wired connection 1"
-route add -net 192.168.0.0/16 gw 192.168.101.1
-
-elif  [ `hostname` == uk1-as203 ]; then
-
-
-
-ifdown Wired_connection_1
-ifdown Wired_connection_1
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.107/24"
-ifdown Wired_connection_1
-nmcli connection up "Wired connection 1"
-route add -net 192.168.0.0/16 gw 192.168.101.1
-
-
-
-
-elif  [ `hostname` == usa7-hs101 ]; then
-
+hosts="192.168.101.40 uk1-nas01.shegu.net
+192.168.101.12 uk1-nas02.shegu.net
+192.168.101.78 uk1-nas03.shegu.net
+192.168.101.80 uk1-nas04.shegu.net
+192.168.101.46 uk1-cache1.shegu.net
+192.168.101.94 uk1-nas05.shegu.net
+192.168.101.95 uk1-nas06.shegu.net  uk1-nas06-1.shegu.net
+192.168.101.103 uk1-as201.shegu.net  
+192.168.101.104 uk1-as101.shegu.net  
+192.168.101.105 uk1-as202.shegu.net  
+
+192.168.101.31 ca1-cache1.shegu.net
+192.168.101.99 ca1-inf101.shegu.net
+192.168.101.100 ca1-a1g201.shegu.net
+192.168.101.35 de2-cache1.shegu.net
+192.168.101.10 usa7-nas01.shegu.net
+192.168.101.37 usa7-nas02.shegu.net
+192.168.101.39 usa7-nas03.shegu.net
+192.168.101.45 usa7-nas04.shegu.net  usa7-nas04-1.shegu.net
+192.168.101.49 usa7-nas05.shegu.net usa7-nas05-1.shegu.net
+192.168.101.79 usa7-nas06.shegu.net usa7-nas06-1.shegu.net 
+192.168.101.63 usa7-nas07.shegu.net
+192.168.101.64 usa7-nas08.shegu.net
+192.168.101.65 usa7-nas09.shegu.net usa7-nas09-1.shegu.net
+192.168.101.66 usa7-nas10.shegu.net usa7-nas10-1.shegu.net
+192.168.101.73 usa7-nas11.shegu.net  usa7-nas11-1.shegu.net
+192.168.101.74 usa7-nas12.shegu.net usa7-nas12-1.shegu.net
+192.168.101.75 usa7-nas13.shegu.net usa7-nas13-1.shegu.net
+192.168.101.76 usa7-nas14.shegu.net  usa7-nas14-1.shegu.net
+192.168.101.77 usa7-nas15.shegu.net
+192.168.101.82 usa7-nas16.shegu.net
+192.168.101.83 usa7-nas17.shegu.net
+192.168.101.84 usa7-nas18.shegu.net usa7-nas18-1.shegu.net
+192.168.101.85 usa7-nas19.shegu.net
+192.168.101.81 usa7-nas20.shegu.net usa7-nas20-1.shegu.net
+192.168.101.92 usa7-nas21.shegu.net  usa7-nas21-1.shegu.net
+192.168.101.93 usa7-nas22.shegu.net usa7-nas22-1.shegu.net
+192.168.101.96 usa7-nas23.shegu.net usa7-nas23-1.shegu.net
+192.168.101.97 usa7-nas24.shegu.net  usa7-nas24-1.shegu.net
+192.168.101.11 usa7-cache1.shegu.net
+192.168.101.14 usa7-cache2.shegu.net  usa7-cache2-1.shegu.net 
+192.168.101.15 usa7-cache3.shegu.net  usa7-cache3-1.shegu.net
+192.168.101.16 usa7-cache4.shegu.net
+192.168.101.17 usa7-cache5.shegu.net  usa7-cache5-1.shegu.net
+192.168.101.18 usa7-cache6.shegu.net  usa7-cache6-1.shegu.net
+192.168.101.19 usa7-cache7.shegu.net  usa7-cache7-1.shegu.net
+192.168.101.20 usa7-cache8.shegu.net  
+192.168.101.21 usa7-cache9.shegu.net usa7-cache9-1.shegu.net
+192.168.101.22 usa7-cache10.shegu.net usa7-cache10-1.shegu.net
+192.168.101.25 usa7-cache11.shegu.net  usa7-cache11-1.shegu.net
+192.168.101.26 usa7-cache12.shegu.net  usa7-cache12-1.shegu.net
+192.168.101.27 usa7-cache13.shegu.net  
+192.168.101.28 usa7-cache14.shegu.net  usa7-cache14-1.shegu.net
+192.168.101.101 usa7-cache15.shegu.net usa7-cache15-1.shegu.net
+192.168.101.106  usa7-hs101.shegu.net usa7-hs101-1.shegu.net
+192.168.101.9 usa6-nas01.shegu.net
+192.168.101.51 usa6-nas02.shegu.net
+192.168.101.67 usa6-nas03.shegu.net
+192.168.101.68 usa6-nas04.shegu.net
+192.168.101.69 usa6-nas05.shegu.net  usa6-nas05-1.shegu.net
+192.168.101.91 usa6-nas06.shegu.net  usa6-nas06-1.shegu.net
+192.168.101.98 usa6-nas07.shegu.net
+192.168.101.44 usa6-cache1.shegu.net
+192.168.101.42 usa6-cache3.shegu.net
+192.168.101.47 usa6-cache4.shegu.net
+192.168.101.48 usa6-cache5.shegu.net
+192.168.101.86 usa6-cache6.shegu.net
+192.168.101.87 usa6-cache7.shegu.net
+192.168.101.88 usa6-cache8.shegu.net
+192.168.101.89 usa6-cache9.shegu.net
+192.168.101.90  usa6-cache10.shegu.net
+192.168.101.102 usa6-cache11.shegu.net
+192.168.101.108 usa6-cache12.shegu.net
+192.168.101.109 usa6-cache13.shegu.net
+192.168.101.110 usa6-cache14.shegu.net
+192.168.101.111 usa6-cache15.shegu.net
+192.168.101.112 usa6-cache16.shegu.net"
+#hosts=`echo $hosts |sed "s| |\||g"`
+IFS=$'\n'
+for name in $hosts; do
+echo $name
+who=`echo $name | awk -F " " '{ print $2 }'| awk -F "." '{ print $1 }' `
+ip=`echo $name | awk -F " " '{ print $1 }' `
+echo who=$who
+echo ip=$ip
+echo "#################"
+if  [ `hostname` == $who ]; then
+##判断系统版本
+if [ -f /etc/os-release ] ; then
+VERSION_ID=`awk -F= '/^VERSION_ID/{print $2}' /etc/os-release | awk -F "\"" ' {print $2 } '`
+else
+VERSION_ID=`cat /etc/redhat-release | awk -F " " ' {print $3 } ' |awk -F 
+"." ' {print $1 } '`
+fi
+#设置IP
+if [  $VERSION_ID == 8 ] ; then
 ifdown Wired_connection_1
 ifup Wired_connection_1
 ifdown Wired_connection_1
 
 nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.106/24"
+nmcli connection modify  "Wired connection 1" ipv4.addresses  "$ip/24"
 ifdown Wired_connection_1
 nmcli connection up "Wired connection 1"
 route add -net 192.168.0.0/16 gw 192.168.101.1
 
+elif [ $VERSION_ID == 6 ] || [ $VERSION_ID == 7 ] ; then
+
+        if  [[ `hostname` == *st*  ]]; then
+        network_card_name=eth3
+        elseif
+        network_card_name=eth1
+        fi
+
+      ifconfig $network_card_name $ip/24
+      echo "ifconfig $network_card_name $ip/24" >> /etc/rc.local
+      route add -net 192.168.0.0/16 gw 192.168.101.1
+
+fi
 
 
-elif  [ `hostname` == usa7-nas03 ]; then
-
-ifdown Wired_connection_1
-ifup Wired_connection_1
-ifdown Wired_connection_1
-
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.39/24"
-ifdown Wired_connection_1
-nmcli connection up "Wired connection 1"
-route add -net 192.168.0.0/16 gw 192.168.101.1
-
-
-elif  [ `hostname` == usa6-cache10 ]; then
-
-ifdown Wired_connection_1
-ifup Wired_connection_1
-ifdown Wired_connection_1
-
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.90/24"
-ifdown Wired_connection_1
-nmcli connection up "Wired connection 1"
-route add -net 192.168.0.0/16 gw 192.168.101.1
-
-
-
-
-
-
-elif  [ `hostname` == usa7-cache2 ]; then
-
-ifdown Wired_connection_1
-ifup Wired_connection_1
-ifdown Wired_connection_1
-
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.14/24"
-ifdown Wired_connection_1
-nmcli connection up "Wired connection 1"
-route add -net 192.168.0.0/16 gw 192.168.101.1
-
-
-
-
-
-elif  [ `hostname` == uk3-nas05 ]; then
-
-ifdown Wired_connection_1
-ifup Wired_connection_1
-ifdown Wired_connection_1
-
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.102.15/24"
-ifdown Wired_connection_1
-nmcli connection up "Wired connection 1"
-
-
-
-elif  [ `hostname` == usa7-cache3 ]; then
-
-ifdown Wired_connection_1
-ifup Wired_connection_1
-ifdown Wired_connection_1
-
-nmcli connection modify "Wired connection 1" ipv4.method manual
-nmcli connection modify  "Wired connection 1" ipv4.addresses  "192.168.101.15/24"
-ifdown Wired_connection_1
-nmcli connection up "Wired connection 1"
-
-
-
-elif  [ `hostname` == usa6-cache13 ]; then
-
-ifconfig eth3 192.168.101.109/24
-echo "ifconfig eth3 192.168.101.109/24" >> /etc/rc.local
 
 
 fi
 
+done
 
 
 
