@@ -3,7 +3,7 @@
 phppage="http://0/php.php"
 sendEmail="/www/movie_box/crontab_scripts/sendEmail"
 sendTo="iammecn@qq.com"
-//钉钉要发送的报警群组
+#钉钉要发送的报警群组
 dingding="9d77a5bf76e00eb8f008929458fe537c8cd8d94086ada26710afa41495bcbb52"
 date=`date +%Y-%m-%d`
 if [ ! -d "/logs/php-fpmrestart" ];then
